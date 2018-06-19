@@ -2,7 +2,7 @@
 
 // configure
 $from = 'SomnusRing.Com';
-$sendTo = 'Kakhapilauri@gmail.com';
+$sendTo = 'Kakha@Somnusring.com';
 $subject = 'Your have a new message';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Message sent successfully. Thank you, will get back to you soon!';
