@@ -1701,7 +1701,7 @@ label {
 
  .contact-form .form-control {
 	 border: none;
-  border-bottom: 2px solid #d0e1fb;
+  border-bottom: 2px solid rgba(44, 62, 80, 0.3);
   border-radius: 1px;
   margin-top: 10px;
   background: #F9F9F9;
@@ -1715,7 +1715,7 @@ label {
 }
 
 .form-control:focus {
-  border-color: #2e7eed;
+  border-color: rgba(44, 62, 80, 1);
 	background: #F4F4F4;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1871,7 +1871,7 @@ text-align: center;
 
 .footer {
 	padding: 50px 0 50px 0;
-	background: #2d2d86;
+	background: #34495e;
 }
 
 .footer h2 {
@@ -1967,7 +1967,7 @@ text-align: center;
 
 
 .back-to-top {
-	background: rgba(68, 176, 255, 0.5);
+	background: rgba(44, 62, 80, 0.7);
 	margin: 0;
 	position: fixed;
 	bottom: 30px;
@@ -1995,7 +1995,7 @@ text-align: center;
 }
 
 .back-to-top:hover {
-	background: rgba(68, 176, 255, 0.8);
+	background: rgba(44, 62, 80, .9);
   color: #FFFFFF;
 }
 
