@@ -3,7 +3,7 @@
 // configure
 $from = 'SomnusRing.Com';
 $sendTo = 'giorgi.kharshila@gmail.com';
-$subject = '[SomnusRing] Your have a new message';
+$subject = 'Your have a new message';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Message sent successfully. Thank you, will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 try
 {
-    // $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have new message from contact form\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 
