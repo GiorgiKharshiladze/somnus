@@ -219,10 +219,10 @@ body {
 		padding-bottom: 10px;
 	}
 	.nav-white .navbar-brand {
-		color: #4957B8;
+		color: #2c3e50;
 	}
 	.nav-white .nav-item .nav-link {
-		color: #4957B8;
+		color: #2c3e50;
 	}
 }
 
@@ -244,7 +244,7 @@ body {
 
 
 .nav-white.past-main .nav-item .nav-link {
-  color: #4957B8;
+  color: #2c3e50;
 	font-weight: 500;
 }
 
@@ -253,7 +253,7 @@ body {
 }
 
 .nav-white.past-main .navbar-brand {
-	color: #4957B8;
+	color: #2c3e50;
 }
 
 .nav-white.effect-main {
@@ -353,7 +353,7 @@ body {
 
 .home-2 {
 	padding: 100px 0 50px 0 !important;
-	background: #2e7eed;
+	background: #34495e;
 }
 
 .home-2 .hero-content {
@@ -1466,8 +1466,8 @@ body {
   border-radius: 0 10px 10px 0;
   margin: 0;
   padding: 0 25px 0 25px;
-  background-color: #387ed1;
-	background-image: linear-gradient(90deg,#42b0ff,#4262ff);
+  background-color: #34495e;
+	background-image: linear-gradient(90deg,#34495e,#2c3e50);
 	font-family: 'Montserrat';
 	font-size: 14px;
 	font-weight: 500;
@@ -1480,6 +1480,11 @@ body {
 	-webkit-transition: 500ms;
 	-moz-transition: 500ms;
 	transition: 500ms;
+}
+
+.formee .right:hover {
+	background-color: #34495e;
+	background-image: linear-gradient(90deg,#2c3e50,#34495e);
 }
 
 .formee .right:focus {
@@ -1768,7 +1773,7 @@ textarea.form-control {
   color: #FFFFFF;
 	border: 0;
 	cursor: pointer;
-	background: linear-gradient(90deg,#42b0ff,#4262ff);
+	background: linear-gradient(90deg,#34495e,#2c3e50);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
     transition: 0.5s;
@@ -1776,7 +1781,7 @@ textarea.form-control {
 
 .btn-send:hover, .btn-send:focus, .btn-send:active {
   color: #FFFFFF;
-	background: linear-gradient(90deg,#4262ff,#42b0ff);
+	background: linear-gradient(90deg,#2c3e50, #34495e);
 	border: 0;
   outline: none !important;
 	-webkit-transition: 0.5s;
