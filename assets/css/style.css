@@ -267,8 +267,8 @@ body {
 
 .hero-home {
   padding: 150px 0 150px 0;
-	background: linear-gradient(to right, rgba(106, 17, 203, 0.95), rgba(37, 117, 252, 0.95)), url(../images/world-map.png) no-repeat center center;
-  background: url(../images/b.jpg) no-repeat center center;
+	background: linear-gradient(to right, #7f8c8d,#2c3e50), url(../images/world-map.png) no-repeat center center;
+  /*background: url(../images/b.jpg) no-repeat center center;*/
 	background-size: cover;
 }
 
@@ -1423,7 +1423,9 @@ body {
 /*-------------------------------------------------------
 -------------- 11. Subscription Form Styling ----------------
 -------------------------------------------------------*/
-
+#email {
+	width:17em;
+}
 .sub-form {
 		position: relative;
 }
@@ -1452,7 +1454,7 @@ body {
   border-radius: 10px 0 0 10px;
 	background-color: #F3F3F3;
   outline: none;
-  padding: 0 100px 0 20px;
+  padding: 0 10px 0 10px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -2180,7 +2182,7 @@ text-align: center;
 	}
 
 	.formee input {
-		padding: 0 50px 0 50px;
+		padding: 0 10px 0 10px;
 	}
 
 	.formee .right {
@@ -2258,7 +2260,7 @@ text-align: center;
 	}
 
 	.formee input {
-		padding: 0 100px 0 50px;
+	    padding: 0 10px 0 10px;
 	}
 
 	.formee .right {
@@ -2309,7 +2311,7 @@ text-align: center;
 @media screen and (min-width: 400px) and (max-width: 600px) {
 
  .formee input {
-   padding: 0 30px 0 20px;
+   padding: 0 10px 0 10px;
    border-radius: 5px 0 0 5px;
  }
 
@@ -2327,7 +2329,7 @@ text-align: center;
 @media screen and (max-width: 399px) {
 
  .formee input {
-	 text-align: center;
+ 	text-align: center;
    padding: 0;
    border-radius: 5px 0 0 5px;
  }
