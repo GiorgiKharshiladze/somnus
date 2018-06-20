@@ -2344,6 +2344,13 @@ text-align: center;
  	margin: 10px 0 5px 0;
  }
 
+ #email {
+	border-radius: 10px !important;
+ }
+ #submit {
+	border-radius: 10px !important;
+ }
+
  #email-error {
  	left: 10%;
  }
@@ -2367,6 +2374,13 @@ text-align: center;
 	 margin-top: 15px;
 	 font-size: 14px;
  }
+#email {
+	border-radius: 10px !important;
+}
+#submit {
+	border-radius: 10px !important;
+}
+
 }
 
 /* Giorgi's Custom Styles */
