@@ -135,7 +135,6 @@ $('.counter').counterUp({
 
 $(document).ready(function() {
 
-  $("#signup").show();
   // jQuery Validation
   $("#signup").validate({
     // if valid, post data via AJAX
@@ -152,6 +151,10 @@ $(document).ready(function() {
       }
     }
   });
+
+  $("#email").show().delay(300);
+  $('#submit').show().delay(300);
+
 });
 
 /*-------- Video PLay button ---- */

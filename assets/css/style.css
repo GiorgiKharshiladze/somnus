@@ -1423,9 +1423,6 @@ body {
 /*-------------------------------------------------------
 -------------- 11. Subscription Form Styling ----------------
 -------------------------------------------------------*/
-#email {
-	width:17em;
-}
 .sub-form {
 		position: relative;
 }
@@ -2370,4 +2367,13 @@ text-align: center;
 	 margin-top: 15px;
 	 font-size: 14px;
  }
+}
+
+/* Giorgi's Custom Styles */
+#email {
+	width:17em;
+	display: none;
+}
+#submit {
+	display: none;
 }
