@@ -131,10 +131,11 @@ $('.counter').counterUp({
 		time: 1000
 });
 
-
 /*----- Subscription Form ----- */
 
 $(document).ready(function() {
+
+  $("#signup").show();
   // jQuery Validation
   $("#signup").validate({
     // if valid, post data via AJAX
